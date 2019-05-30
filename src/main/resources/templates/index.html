@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html xmlns:th="http://thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org" lang="pt-BR">
 <head>
 	<meta charset="UTF-8"></meta>
-	<title>Insert title here</title>
+	<title>HTML Modelo</title>
 	<link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css"/>
-	<script type="text/javascript" src="/webjars/jquery/3.1.1-1/jquery.min.js"></script>
 </head>
 <body>
 	<div th:replace="fragmentos/fragmentos :: header"></div>
@@ -13,5 +12,7 @@
 	<input type="text" class="form-control" />
 
 	<div th:replace="fragmentos/fragmentos :: footer"></div>
+
+	<script type="text/javascript" src="/webjars/jquery/3.1.1-1/jquery.min.js"></script>
 </body>
 </html>
